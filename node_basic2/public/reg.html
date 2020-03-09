@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    
+    <h1>PLEASE FILL OUT THE REGISTRATION FORM</h1>
+
+    <form action="/userReg" method='POST'>
+        <label for="name">Please enter your name</label>
+        <input type="text" name='name' value='igor' required><br>
+        <label for="lastName">Please enter your last name</label>
+        <input type="text" name='lastName' value='kogo' required><br>
+
+        <label for="login">Please enter your login</label>
+        <input type="text" name='login' value='igor' required><br>
+
+        <label for="password">Please enter your password</label>
+        <input type="password" name='password' value='dddd' required><br>
+        <label for="email">Please enter your email</label>
+        <input type="email" name='email' value='igor@ukr.net' required><br>
+        <button type="submit">regBT</button>
+    </form>
+
+    <h3>WOULD YOU LIKE TO LOG IN?</h3>
+    <form action="/userLogin" method="POST">
+        <input type="text" name='login' placeholder="login" required>
+        <input type="password" name='password' placeholder="password" required>
+        <button type='submit'>Log In</button>
+    </form>
+
+
+
+
+
+    <!-- <br>
+    <form action="/findUser" method="get">
+        <span>Search for a user</span>
+        <input type="text" name='name' required>
+        <button type='submit'>Search</button>
+    </form> -->
+    
+
+
+</body>
+</html>
+<script src="js/main.js"></script>

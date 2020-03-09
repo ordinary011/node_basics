@@ -1,0 +1,28 @@
+doctype html
+html
+    head
+        title userHome
+        link(rel="stylesheet" href="css/main.css")
+    body
+        h1 Hello! this is the homepage of your account
+        p= user
+    form(action="/userFind" method="POST")
+        input(type="text" name='name' placeholder='search for friends')
+        include partials/btSearch.pug
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

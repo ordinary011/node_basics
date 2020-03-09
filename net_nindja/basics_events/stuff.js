@@ -1,0 +1,57 @@
+
+
+let counter = (did) => `There are ${did.length} elements in the array`
+
+let adder = (a,b) => `the sum is ${a+b}`
+
+let pi = 3.14
+
+
+module.exports = { counter, adder, pi }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

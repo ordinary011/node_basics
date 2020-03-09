@@ -1,0 +1,13 @@
+doctype html
+html
+    head
+        title userHome
+        link(rel="stylesheet" href="css/main.css")
+    body
+        for u in found
+            form(action=`/addFriend/${u._id}` method="post")
+                p= u
+                button(type="submit") Add to friend
+            form(action=`/userChat/${u._id}` method="get")
+                button(type="submit") Chat with a user
+                hr
